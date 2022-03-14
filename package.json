@@ -1,0 +1,38 @@
+{
+  "name": "websdk-samples-react",
+  "version": "1.0.0",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "start": "nwb serve-react-demo"
+  },
+  "peerDependencies": {
+    "react": "16.x"
+  },
+  "devDependencies": {
+    "nwb": "^0.25.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "dependencies": {
+    "scandit-sdk": "^4.6.3"
+  },
+  "keywords": [
+    "scandit",
+    "barcode",
+    "scan",
+    "scanning",
+    "code",
+    "webassembly",
+    "sdk",
+    "react",
+    "component",
+    "react-component"
+  ]
+}
