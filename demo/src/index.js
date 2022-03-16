@@ -18,7 +18,7 @@ class Demo extends Component {
         vibrateOnScan={true}
         scanSettings={
           new ScanditSDK.ScanSettings({
-            recognitionMode: ScanditSDK.ScanSettings.RecognitionMode?.TEXT,
+            recognitionMode: ScanditSDK.ScanSettings.RecognitionMode.TEXT,
             textRecognitionSettings: textRecognitionSettings,
           })
         }

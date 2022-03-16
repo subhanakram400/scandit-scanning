@@ -21,7 +21,7 @@
     "react-dom": "^16.13.1"
   },
   "dependencies": {
-    "scandit-sdk": "^4.6.3"
+    "scandit-sdk": "5.10"
   },
   "keywords": [
     "scandit",
